@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
     private static final String DB_CONNECTION = "jdbc:mysql://localhost:3306/orderDB";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "root";
+    private static final String DB_PASSWORD = "password";
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(DB_CONNECTION, DB_USER, DB_PASSWORD);
